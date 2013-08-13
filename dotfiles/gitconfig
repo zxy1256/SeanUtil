@@ -1,0 +1,11 @@
+[user]
+	email = xinyuzhang@google.com
+	name = Sean Zhang
+[receive]
+  denyCurrentBranch = warn
+
+[diff]
+  external = git_diff_wrapper
+
+[difftool]
+  prompt = false
