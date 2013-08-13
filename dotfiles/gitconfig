@@ -1,11 +1,23 @@
-[user]
-	email = xinyuzhang@google.com
-	name = Sean Zhang
-[receive]
-  denyCurrentBranch = warn
+[color]
+  diff = auto
+  ui = auto
 
 [diff]
   external = git_diff_wrapper
 
 [difftool]
   prompt = false
+
+[merge]
+  tool = vimdiff
+
+[pager]
+  diff =
+
+[receive]
+  denyCurrentBranch = warn
+
+[user]
+	email = zxy1256@gmail.com
+	name = Sean Zhang
+
