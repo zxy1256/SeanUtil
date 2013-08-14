@@ -119,6 +119,8 @@ set tm=500
 " Show a vertical line at 80 characters
 set colorcolumn=80
 
+" Show number
+set number
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -245,7 +247,7 @@ set viminfo^=%
 set laststatus=2
 
 " Format the status line
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
+set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ (%l,%c)
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
