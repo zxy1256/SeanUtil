@@ -398,3 +398,17 @@ function! <SID>BufcloseCloseIt()
    endif
 endfunction
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugins
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+execute pathogen#infect()
+
+" NERDTree
+" autocmd vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+" FuzzyFinder
+nmap ,f :FufFileWithCurrentBufferDir<CR>
+nmap ,b :FufBuffer<CR>
+nmap ,t :FufTaggedFile<CR>
