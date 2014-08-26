@@ -1,37 +1,50 @@
-SeanUtil
+Setup a Development Machine
 ========
 
-My personal utils, including settings and useful scripts.
+File Structure
+------
 
-Mac
-=========
-##Basic tools
-### Install XCode
-Use AppStore
+    ~/
+      Code/
+        Web
+        Android
+        Java
+        Python
+        Config
 
-### Install Homebrew
 
-### Install git
-### Config git
+Setup a Mac
+-------
+ * Install XCode (using AppStore)
+ * Install MacPort
 
-### Install zsh
-* http://site.douban.com/125980/widget/notes/4884065/note/232038698/
-* https://github.com/robbyrussell/oh-my-zsh/
+Common Setup
+--------
+ * Install zsh
+  - https://github.com/robbyrussell/oh-my-zsh/
 
-### Install tmux
+ * Install git
+  - http://site.douban.com/125980/widget/notes/4884065/note/232038698/
 
-### Config vim
+ * Install tmux
 
-## Design tools
-### Install Gimp
-### Install Inkscape
+        ln -s <ABSOLUTE_PATH>/tmux/tmux.conf ~/.tmux.conf
 
-## IDEs
-### Eclipse
-### Android SDK
-## Android development
+ * Config vim
+  * Install pathogen.vim
+  * Install l9
+  * Install NERDTree
+  * Install FuzzyFinder
+  * Update vimrc
 
-## iOS development
+            ln -s <ABSOLUTE_PATH>/vim/vimrc ~/.vimrc
 
-Ubuntu
-=============
+ * Install Sublime 3 Text
+  * Install Package Control
+  * Install emmet
+ * Install NVM
+ * Install NodeJS
+ * Install the following global nodepackage
+    - Bowser
+    - Grunt
+    - Gulp
