@@ -121,6 +121,9 @@ set colorcolumn=80
 
 " Show number
 set number
+
+" Highlight trailing space
+match ErrorMsg '\s\+$'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
