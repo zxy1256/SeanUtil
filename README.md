@@ -1,7 +1,7 @@
 Setup a Development Machine
 ========
 
-File Structure
+Setup File Structure
 ------
 
     ~/
@@ -13,13 +13,14 @@ File Structure
         Config
 
 
-Setup a Mac
--------
+Installing Softwares
+-----
+
+## Special Steps for Mac
  * Install XCode (using AppStore)
  * Install MacPort
 
-Common Setup
---------
+## Common Steps
  * Install zsh
   - https://github.com/robbyrussell/oh-my-zsh/
 
@@ -48,3 +49,6 @@ Common Setup
     - Bowser
     - Grunt
     - Gulp
+ * Python
+  - pandas
+  - matplotlit
