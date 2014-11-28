@@ -1,41 +1,41 @@
 Setup a Development Machine
 ========
 
-File Structure
+Setup File Structure
 ------
 
     ~/
       Code/
         Web
         Android
-        Java
-        Python
+        Utils
         Config
 
 
-Setup a Mac
--------
+Install Softwares
+-----
+
+## Special Steps for Mac
  * Install XCode (using AppStore)
  * Install MacPort
 
-Common Setup
---------
+## Common Steps
  * Install zsh
   - https://github.com/robbyrussell/oh-my-zsh/
+  - http://site.douban.com/125980/widget/notes/4884065/note/232038698/
 
  * Install git
-  - http://site.douban.com/125980/widget/notes/4884065/note/232038698/
 
  * Install tmux
 
         ln -s <ABSOLUTE_PATH>/tmux/tmux.conf ~/.tmux.conf
 
  * Config vim
-  * Install pathogen.vim
-  * Install l9
-  * Install NERDTree
-  * Install FuzzyFinder
-  * Update vimrc
+  - Install pathogen.vim
+  - Install l9
+  - Install NERDTree
+  - Install FuzzyFinder
+  - Update vimrc
 
             ln -s <ABSOLUTE_PATH>/vim/vimrc ~/.vimrc
 
@@ -45,6 +45,11 @@ Common Setup
  * Install NVM
  * Install NodeJS
  * Install the following global nodepackage
-    - Bowser
-    - Grunt
-    - Gulp
+  - Bowser
+  - Grunt
+  - Gulp
+  - Karma
+  - Jasmine
+ * Python
+  - pandas
+  - matplotlit
