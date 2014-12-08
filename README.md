@@ -15,19 +15,23 @@ Setup File Structure
 Install Softwares
 -----
 
-## Special Steps for Mac
- * Install XCode (using AppStore)
- * Install MacPort
+## Tools
+ * Install XCode (Mac only, using AppStore)
 
-## Common Steps
+ * [Install XCode command line tool](http://railsapps.github.io/xcode-command-line-tools.html)
+
+ * Install Homebrew (Mac only)
+  - [Fix problems with Yosemite](http://jcvangent.com/fixing-homebrew-os-x-10-10-yosemite/)
+
+ * Install git
+
  * Install zsh
   - https://github.com/robbyrussell/oh-my-zsh/
   - http://site.douban.com/125980/widget/notes/4884065/note/232038698/
 
- * Install git
-
  * Install tmux
 
+        brew install tmux
         ln -s <ABSOLUTE_PATH>/tmux/tmux.conf ~/.tmux.conf
 
  * Config vim
@@ -42,14 +46,34 @@ Install Softwares
  * Install Sublime 3 Text
   * Install Package Control
   * Install emmet
+
+ * Install MySQL
+ * Install MongoDB
+
+### NodeJS
  * Install NVM
+    
+    curl https://raw.github.com/creationix/nvm/v0.4.0/install.sh | sh
+
  * Install NodeJS
- * Install the following global nodepackage
-  - Bowser
+      
+    nvm install v0.10
+      
+ * Install the following global nodepackages
+  - Bower
   - Grunt
   - Gulp
   - Karma
   - Jasmine
- * Python
+
+### Python
   - pandas
   - matplotlit
+
+### Ruby
+
+
+### Go
+
+### Media Related
+ * Install ffmpeg
