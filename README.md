@@ -1,8 +1,8 @@
 Setup a Development Machine
-========
+===========================
 
 Setup File Structure
-------
+--------------------
 
     ~/
       Code/
@@ -13,17 +13,38 @@ Setup File Structure
 
 
 Install Softwares
------
+-----------------
 
-## Tools
- * Install XCode (Mac only, using AppStore)
+### Installation places
 
- * [Install XCode command line tool](http://railsapps.github.io/xcode-command-line-tools.html)
+```
+/usr/local/bin/
+/usr/bin/
+/usr/local/sbin
+/usr/sbin
+/usr/local/liba
+/opt/local/bin
+/Application
+/Library
+```
 
- * Install Homebrew (Mac only)
-  - [Fix problems with Yosemite](http://jcvangent.com/fixing-homebrew-os-x-10-10-yosemite/)
+If `/usr/local` needs root permsion, then consider the following places:
 
- * Install git
+```
+/opt/local/bin
+/opt/local/sbin
+```
+### Special steps for Mac
+
+ * Install XCode (using AppStore)
+ * Install MacPort
+ * Install [slate](https://github.com/jigish/slate)
+
+### Special steps for Linux
+
+ * Install Xmonad
+
+### Common steps
 
  * Install zsh
   - https://github.com/robbyrussell/oh-my-zsh/
@@ -31,7 +52,6 @@ Install Softwares
 
  * Install tmux
 
-        brew install tmux
         ln -s <ABSOLUTE_PATH>/tmux/tmux.conf ~/.tmux.conf
 
  * Config vim
@@ -52,13 +72,13 @@ Install Softwares
 
 ### NodeJS
  * Install NVM
-    
+   ``` 
     curl https://raw.github.com/creationix/nvm/v0.4.0/install.sh | sh
-
+   ```
  * Install NodeJS
-      
+    ```
     nvm install v0.10
-      
+    ```      
  * Install the following global nodepackages
   - Bower
   - Grunt
