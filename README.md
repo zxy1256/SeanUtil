@@ -54,18 +54,12 @@ If `/usr/local` needs root permsion, then consider the following places:
 
         ln -s <ABSOLUTE_PATH>/tmux/tmux.conf ~/.tmux.conf
 
- * Config vim
-  - Install pathogen.vim
-  - Install l9
-  - Install NERDTree
-  - Install FuzzyFinder
-  - Update vimrc
-
-            ln -s <ABSOLUTE_PATH>/vim/vimrc ~/.vimrc
-
- * Install Sublime 3 Text
-  * Install Package Control
-  * Install emmet
+ * Editor
+    * [Config vim](./vim/README.md/#Config)
+    * Install Sublime 3 Text
+      * Install Package Control
+      * Install emmet
+    * Install Atom
 
  * Install MySQL
  * Install MongoDB
