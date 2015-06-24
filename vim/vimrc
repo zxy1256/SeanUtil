@@ -184,6 +184,8 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
+" Disable auto comment
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
