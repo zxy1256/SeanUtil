@@ -16,6 +16,15 @@ Program
     :q Quit vim
 
 
+Move
+=====
+
+ctrl+o and ctrl+i: Go to previous location you jump to.
+``: jump back to where you are
+gi: jump to previous place inserting text
+
+ctrl+F/B: Move forward and backward.
+
 Config
 -------
 

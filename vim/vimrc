@@ -127,11 +127,13 @@ set number
 
 " Highlight trailing space
 match ErrorMsg '\s\+$'
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
-syntax enable 
+syntax enable
 
 colorscheme desert
 set background=dark
@@ -158,6 +160,7 @@ set ffs=unix,dos,mac
 set nobackup
 set nowb
 set noswapfile
+:au FocusLost * :wa
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -181,6 +184,8 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
+" Disable auto comment
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
