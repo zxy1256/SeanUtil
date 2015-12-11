@@ -1,3 +1,8 @@
+#============================================
+# Please add the following lines to ~/.zshrc
+#
+# source ~/Code/Github/Setup/zsh/zshrc.sh
+# ===========================================
 alias v='vim'
 
 # Git
